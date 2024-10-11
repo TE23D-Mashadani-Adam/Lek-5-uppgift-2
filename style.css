@@ -1,5 +1,6 @@
 body{
     padding: 5px;
+    min-width: 100px;
 }
 h1{
     text-align: center;
@@ -40,7 +41,9 @@ h1{
 #andra_div{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    border: 2px red solid;
+    padding: 10px;
 }
 
 
@@ -63,4 +66,8 @@ h1{
     width: 700px;    
     border: 2px red solid;
     border-radius: 4px;
+}
+#christmas_img{
+    width: 200px;
+    border: 2px red solid;
 }
